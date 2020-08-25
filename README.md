@@ -24,8 +24,8 @@ curl http://localhost:8080/
 docker build -t aula1 .
 ```
 
-## Run (sem daemon)
+## Run (daemon)
 
 ```
-docker run -t aula1
+docker run -d -p 8080:8080 -it v1
 ```
