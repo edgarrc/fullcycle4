@@ -29,3 +29,7 @@ docker build -t aula1 .
 ```
 docker run -d -p 8080:8080 -it v1
 ```
+
+
+## Refs
+- https://www.digitalocean.com/community/tutorials/como-construir-uma-aplicacao-node-js-com-o-docker-pt
