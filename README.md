@@ -6,9 +6,9 @@ Refs:
 - https://www.keycloak.org/getting-started/getting-started-docker
 - https://www.keycloak.org/app/
 
-## Instalação
+## Instalação tutorial
 
-Após executar os passos do getting-started o keycloak exigirá o uso de SSL, para desabilitar:
+Após executar os passos do getting-started se o keycloak exigir o uso de SSL, para desabilitar:
 
 ```
 docker exec -it {contaierID} bash
@@ -21,6 +21,12 @@ Após criar o seu realm, desabilitar o SSL dele também
 
 ```
 ./kcadm.sh update realms/XXXX -s sslRequired=NONE
+```
+
+## Instalação docker compose
+
+```
+docker-compose up
 ```
 
 ## Urls
