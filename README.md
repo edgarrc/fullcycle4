@@ -1,3 +1,5 @@
 # Fullcycle 4.0
 
-Um branch por aula, veja os branchs
+Repositório com o código da maratona Fullcycle 4.0
+
+Cada aula estará em um branch separado, veja os branchs.
