@@ -27,9 +27,9 @@ Após criar o seu realm, desabilitar o SSL dele também
 
 Admin console
 
-http://104.131.118.151:8080/auth/admin
+http://<ip>:8080/auth/admin
 
 Login na conta
 
-http://104.131.118.151:8080/auth/realms/fullcycle4/account
+http://<ip>:8080/auth/realms/fullcycle4/account
 
