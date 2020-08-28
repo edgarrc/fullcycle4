@@ -1,5 +1,5 @@
 import { Controller } from '@nestjs/common';
-import { Categories } from '../categories.entity';
+import { Categories } from './categories.entity';
 import { CategoriesService } from './categories.service';
 import { Get,Post,Put,Delete, Body, Param } from  '@nestjs/common';
 
