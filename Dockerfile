@@ -10,7 +10,6 @@ RUN npm run build
 
 FROM nginx
 COPY --from=build /usr/src/app/build /usr/share/nginx/html
-RUN cd /etc/nginx/conf.d/
-RUN sed -i 's/80/3000/g' default.conf
-EXPOSE 80
+RUN sed -i 's/80/3000/g' /etc/nginx/conf.d/default.conf
+EXPOSE 3000
 CMD ["nginx", "-g", "daemon off;"]
