@@ -1,7 +1,13 @@
-FROM node:12
-WORKDIR /usr/src
-COPY . /usr/src/
-RUN yarn --frozen-lockfile
-ENV CI=true
+FROM node:12.18.3-alpine3.11
+
+USER node
+
+COPY . /home/node/app
+
+RUN cd /home/node/app & npm install
+
 EXPOSE 3000
-CMD ["yarn", "start"]
+
+WORKDIR /home/node/app
+
+ENTRYPOINT [ "npm", "start" ]
