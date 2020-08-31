@@ -6,7 +6,7 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
-import Users from "./Pages/Users";
+import Users from "./pages/users";
 
 const Routes: React.FC = () => {
   return (
